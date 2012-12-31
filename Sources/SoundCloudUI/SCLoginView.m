@@ -328,6 +328,7 @@
                                      self.loginButton.frame.origin.y + self.loginButton.frame.size.height + 10.0,
                                      CGRectGetWidth(self.bounds) - 20.0,
                                      80.0);
+    [self setNeedsDisplay];
 }
 
 - (void)askForOpeningURL:(NSURL*)URL
